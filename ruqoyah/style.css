@@ -191,3 +191,11 @@ footer h5 {
     background-color: #320E3B47;
     ;
 } */
+
+@media only screen and (max-width: 443px) {
+    .Explore span {
+        display: none;
+        /* padding-left: 10px; */
+        /* font-size: 10px; */
+    }
+}
