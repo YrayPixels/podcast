@@ -82,6 +82,16 @@ body {
     border-radius: 7px;
 }
 
+.explorelist li:hover {
+    list-style: none;
+    border: 1px solid #320E3B;
+    background-color: #320E3B;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+
 .exCard {
     background-color: white;
     padding: 10px;
@@ -98,7 +108,7 @@ body {
 
 .exCard h4 {
     font-size: 10px;
-    font-weight: 525;
+    font-weight: 500;
 }
 
 .exCard i {
@@ -135,6 +145,18 @@ body {
     border-radius: 50%;
 
 }
+
+.pricingCard .indCard {
+    border: 1px solid #320E3B;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pricingCard li {
+    list-style-image: url("/imagesR/icons8-done.svg");
+
+}
+
 
 /* .imgcd {
     background-color: #320E3B47;

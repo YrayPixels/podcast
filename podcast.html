@@ -42,10 +42,10 @@
                 </ul>
 
                 <div>
-                    <button class="btnDark">
+                    <button class="btn btn-sm btn-dark">
                         Login
                     </button>
-                    <button class="btnLight">Sign up</button>
+                    <button class="btn btn-sm btn-outline-dark">Sign up</button>
                 </div>
             </div>
         </div>
@@ -66,11 +66,11 @@
                         </p>
                     </div>
                     <div class="pt-5">
-                        <button class="btnDark">Start listening</button>
-                        <button class="btnLight">Learn more </button>
+                        <button class="btn btn-sm btn-dark">Start listening</button>
+                        <button class="btn btn-sm btn-outline-dark">Learn more </button>
                         <div>
                             <div>
-                                <img src="" alt="prof">
+                                <img src="" alt=" prof">
                             </div>
                             <p>+500k users worldwide</p>
                         </div>
@@ -326,7 +326,7 @@
             </div>
             <div class="explorelist ">
                 <ul class="d-flex  justify-content-around px-4">
-                    <li class="btnDark">All</li>
+                    <li>All</li>
                     <li>Health</li>
                     <li>News</li>
                     <li>Entertainment</li>
@@ -568,28 +568,62 @@
 
         </div>
         <!-- Pricing Plans -->
-        <div>
-            <h2>Our pricing is simple with no hidden charges</h2>
-            <div>
-                <button>
-                    Monthly
-                    Yearly
-                </button>
+        <div class="pricing py-5">
+            <div class="text-center">
+                <h2>Our pricing is simple with no hidden charges</h2>
+
+                <div class="btn-group btn-group-sm py-3" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-dark">Monthly</button>
+                    <button type="button" class="btn btn-outline-dark">Yearly</button>
+                </div>
             </div>
-            <div>
-                <div>
+            <div class="row pricingCard justify-content-around pt-2">
+                <div class="indCard col-3 py-4 ">
                     <h4>Basic</h4>
                     <p>Multistreaming sample</p>
                     <h5>
                         Free
                     </h5>
                     <ul>
+                        <br>
                         <li>2 Channels</li>
                         <li>1 User</li>
                         <li>12 Episodes</li>
                     </ul>
-                    <div>
-                        <button>Get Started for free</button>
+                    <div class=" text-center pt-4">
+                        <button class="btn btn-outline-dark">Get Started for free</button>
+                    </div>
+                </div>
+                <div class="indCard col-3 py-4 ">
+                    <h4>Popular</h4>
+                    <p>Essential tool to get started</p>
+                    <h5>
+                        <span><i class="fa-solid fa-naira-sign"></i></span> 5,000
+                    </h5>
+                    <ul>
+                        <li>Up to 15 channels</li>
+                        <li>3 User</li>
+                        <li>Unlimited episodes</li>
+                        <li>300 Monthly downloads</li>
+                    </ul>
+                    <div class=" text-center pt-4">
+                        <button class="btn btn-outline-dark">Get Started for free</button>
+                    </div>
+                </div>
+                <div class="indCard col-3 py-4">
+                    <h4>Premium</h4>
+                    <p>Essential tool to get started</p>
+                    <h5>
+                        <span><i class="fa-solid fa-naira-sign"></i></span> 10,000
+                    </h5>
+                    <ul>
+                        <li>Up to 60 channels</li>
+                        <li>9 User</li>
+                        <li>Unlimited episodes</li>
+                        <li>600 Monthly downloads</li>
+                    </ul>
+                    <div class=" text-center pt-4">
+                        <button class="btn btn-outline-dark">Get Started for free</button>
                     </div>
                 </div>
             </div>
