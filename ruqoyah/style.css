@@ -157,6 +157,31 @@ body {
 
 }
 
+.newsletter {
+    position: relative;
+    background-color: #320E3B;
+    overflow: hidden;
+}
+
+.newsletter h2 {
+
+    font-weight: 500;
+    /* padding: 30px; */
+}
+
+.top img {
+    border-radius: 50%;
+    position: absolute;
+    right: -20%;
+    top: -145px;
+}
+
+.bottom img {
+    border-radius: 50%;
+    position: absolute;
+    left: -10%;
+    bottom: -100px;
+}
 
 /* .imgcd {
     background-color: #320E3B47;
