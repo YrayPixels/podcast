@@ -228,4 +228,8 @@ footer h5 {
     .btnform {
         z-index: 3;
     }
+
+    .playbtn {
+        display: none;
+    }
 }
