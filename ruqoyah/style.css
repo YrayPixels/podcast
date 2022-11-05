@@ -159,7 +159,10 @@ body {}
     overflow: hidden;
 }
 
+
+
 .newsletter h2 {
+    /* z-index: 4; */
 
     font-weight: 500;
     /* padding: 30px; */
@@ -167,6 +170,7 @@ body {}
 
 .top img {
     border-radius: 50%;
+    z-index: 0;
     position: absolute;
     right: -20%;
     top: -145px;
@@ -178,6 +182,12 @@ body {}
     left: -10%;
     bottom: -100px;
 }
+
+.btnform {
+    z-index: 3;
+}
+
+
 
 footer li {
     list-style-type: none;
@@ -197,5 +207,25 @@ footer h5 {
         display: none;
         /* padding-left: 10px; */
         /* font-size: 10px; */
+    }
+
+    .top img {
+        display: none;
+        border-radius: 50%;
+        position: absolute;
+        right: -20%;
+        top: -145px;
+    }
+
+    .bottom img {
+        border-radius: 50%;
+        position: absolute;
+        /* z-index: 2; */
+        left: -10%;
+        bottom: -100px;
+    }
+
+    .btnform {
+        z-index: 3;
     }
 }
