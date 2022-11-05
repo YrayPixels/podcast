@@ -183,6 +183,14 @@ body {
     bottom: -100px;
 }
 
+footer li {
+    list-style-type: none;
+}
+
+footer h5 {
+    padding-bottom: 10px;
+}
+
 /* .imgcd {
     background-color: #320E3B47;
     ;
